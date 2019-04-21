@@ -1,0 +1,14 @@
+Publico vazio exercicio3()
+	int altura, raio;
+  real area, volume;
+  real pi <- 3.14;
+
+  leia(altura);
+  leia(raio);
+
+  area = 2 * pi * (altura + raio);
+  volume = 2 * pi * raio * raio * altura;
+
+  imprima(area);
+  imprima(volume);
+fim-método
