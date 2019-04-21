@@ -1,0 +1,9 @@
+Publico vazio exercicio2()
+	int x, y;
+  
+  leia(x);
+  leia(y);
+
+  imprima(x/y);
+  imprima(x%y);
+fim-método
