@@ -3,7 +3,6 @@ Publico vazio exercicio1()
 	leia(numero);
 
 	para cont <- 0 ate numero
-		cont <- cont + 1
 		imprima(cont)
 	fim-para
 fim-método
