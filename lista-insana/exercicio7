@@ -1,0 +1,12 @@
+Publico vazio exercicio7()
+	string nome <- 'Amauri';
+  string aux;
+
+  leia(aux);
+  
+  se aux == nome
+    imprima('NOME CORRETO')
+  senão
+    imprima('NOME INCORRETO')
+  fim-se
+fim-método
