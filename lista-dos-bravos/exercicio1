@@ -1,0 +1,8 @@
+Publico vazio exercicio1()
+	int numero;
+	leia(numero);
+
+	para int i=0, i <= numero, i++
+		imprima(i)
+	fim-para
+fim-método
