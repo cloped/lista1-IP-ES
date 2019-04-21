@@ -1,0 +1,8 @@
+Publico vazio exercicio10()
+  int latao;
+
+  leia(latao);
+
+  imprima('cobre:', latao * 0.7);
+  imprima('zinco:', latao * 0.3);
+fim-método
