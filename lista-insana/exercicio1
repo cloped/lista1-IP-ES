@@ -1,0 +1,18 @@
+Publico vazio exercicio1()
+	real ex_1, ex_2, ex_3, prova_final;
+	real media_parcial, media_final;
+
+	leia(ex_1);
+	leia(ex_2);
+	leia(ex_3);
+	leia(prova_final);
+	
+	media_parcial <- (ex_1 + ex_2 + ex_3) / 3;
+	media_final <- (2 * media_parcial + prova_final) / 3;
+
+	se media >= 5.0
+		imprima('aprovado');
+	senão
+		imprima('reprovado e falido');
+	fim-se
+fim-método
