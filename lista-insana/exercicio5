@@ -1,0 +1,13 @@
+Publico vazio exercicio5()
+	real a, b, c;
+
+  leia(a);
+  leia(b);
+  leia(c);
+
+  se a > b + c
+    imprima('sim')
+  senão
+    imprima('não')
+  fim-se
+fim-método
