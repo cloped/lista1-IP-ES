@@ -1,0 +1,12 @@
+Publico vazio exercicio5()
+	int razao, primeiro, ultimo, n;
+
+  leia(razao);
+  leia(primeiro);
+  leia(ultimo);
+
+  n <- (ultimo - primeiro) / razao;
+
+  // an = a1 + (n – 1)r
+  imprima(primeiro + (n - 1) * razao)
+fim-método
