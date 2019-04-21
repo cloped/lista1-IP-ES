@@ -2,7 +2,8 @@ Publico vazio exercicio1()
 	int numero;
 	leia(numero);
 
-	para int i=0, i <= numero, i++
-		imprima(i)
+	para cont <- 0 ate numero
+		cont <- cont + 1
+		imprima(cont)
 	fim-para
 fim-método
