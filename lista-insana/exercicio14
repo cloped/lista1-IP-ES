@@ -1,0 +1,25 @@
+Publico vazio exercicio14()
+  int a, b, c, d, soma;
+  soma <- 0;
+
+  leia(a);
+  leia(b);
+  leia(c);
+  leia(d);
+
+  se a % 2 == 0
+    soma += a;
+  fim-se
+
+  se b % 2 == 0
+    soma += b;
+  fim-se
+
+  se c % 2 == 0
+    soma += c;
+  fim-se
+
+  se d % 2 == 0
+    soma += d;
+  fim-se
+fim-método
