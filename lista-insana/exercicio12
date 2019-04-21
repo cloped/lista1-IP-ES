@@ -1,0 +1,23 @@
+Publico vazio exercicio12()
+  int a, b, c, aux;
+
+  leia(a);
+  leia(b);
+  leia(c);
+
+  se a > b
+    aux = a;
+    a = b;
+    b = aux;
+  fim-se
+
+  se b > c
+    aux = c;
+    c = b;
+    b = aux;
+  fim-se
+
+  imprima(a);
+  imprima(b);
+  imprima(c);
+fim-método
